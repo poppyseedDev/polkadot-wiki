@@ -66,11 +66,7 @@ and test changes, but a proof of concept for Polkadot's sharded model.
 
 Kusama is not simply a testnet, the blockchain is fully functional with attached economic value, and
 own governance. The future of Kusama is in the hands of its participants. In a typical blockchain
-development pipeline, Kusama would sit in between a "testnet" and a "mainnet":
-
-:::info Testnet --> Kusama --> Polkadot
-
-:::
+development pipeline, Kusama would sit in **between a "testnet" and a "mainnet"**:
 
 As you can imagine, building on Kusama first allows teams to test things out in a live, fully
 decentralized, and community-controlled network with real-world conditions and lower stakes in the
@@ -99,6 +95,27 @@ to maintain a close relationship, with many teams likely deploying applications 
 the future, we’re also likely to see Kusama bridged to Polkadot for cross-network interoperability.
 Web3 Foundation remains committed to both networks going forward, providing crucial support and
 guidance to teams building for the ecosystem.
+
+## To sum up
+
+### Comonalities
+
+Both Kusama and Polkadot use:
+
+- Nominated Proof of Stake (NPoS) system
+- Parachains connected to the Relay chain
+- XCM
+- Forkless upgrades
+- On-chain governance
+
+### Differences
+
+| Polkadot                                        | Kusama                                                       |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| Priorotizes **stability** and **security**      | Great for **experimentation** and **early-stage** deployment |
+| More conservative governance and fewer upgrades | Latest technology                                            |
+| Higher validator rewards                        | Lower slashing penalties                                     |
+| Higher bonding requirements                     | Lower bonding requirements                                   |
 
 ## Explore more
 
